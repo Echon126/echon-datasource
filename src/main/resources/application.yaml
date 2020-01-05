@@ -1,0 +1,13 @@
+spring:
+  datasource:
+      default:
+        url: jdbc:mysql://localhost:3306/mybatis_demo?characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull
+        username: root
+        password: root
+        driver-class-name: com.mysql.jdbc.Driver
+
+      master:
+        url: jdbc:mysql://localhost:3306/mybatis_slave?characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull
+        username: root
+        password: root
+        driver-class-name: com.mysql.jdbc.Driver
